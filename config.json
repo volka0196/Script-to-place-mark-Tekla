@@ -1,0 +1,38 @@
+{
+	"text_region": {
+		"_info": "#coordinate of screenshot for read name of drawing",
+		"x": 500,
+		"y": 0,
+		"width": 1000,
+		"height": 30
+	},
+	"search" : {
+		"_info": "#where the start, end and step searching of pixel",
+		"start_x": 1020,
+		"end_x": 400,
+		"start_y": 280,
+		"end_y": 200,
+		"step": -2
+	},
+	"color": {
+		"_info": "#RGB of pixel: Blue: 0, 0, 254; Brown: 127, 63, 63",
+		"red": 0,
+		"green": 0,
+		"blue": 254
+	},
+	"_info": "#max time of loading a drawing",
+	"timeout": 60,
+	"_info1": "#time between attempts of loading a drawing",
+	"time_between_attempts": 2,
+
+	"tekla_hotkeys": {
+		"_info": "#hotkeys for Tekla",
+		"add_text": "t",
+		"next_drawing": ["ctrl", "pagedown"]
+		},
+	"script_hotkeys": {
+		"_info": "#hotkeys for controlling the script",
+		"start": "ctrl+shift+s",
+		"stop": "ctrl+q"
+	}
+}
