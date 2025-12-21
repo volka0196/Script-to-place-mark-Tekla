@@ -1,3 +1,11 @@
-This script place one mark on the most centered view. Script have own configuration "config.json". To choose mark you need to take a screenshot of the mark and place it in the script folder with name "mark". To run the script, you need to open file “Run_Script_from_Admin.py”, because script requires admin rights to clicks in Tekla. When you start the script, you must to be in drawing and press “home” key on keyboard and have the required mark selected by default.
+This script place one mark on the most centered view. 
+Script have own configuration "config.json". 
+To choose mark you need to take a screenshot of the mark and place it in the script folder with name "mark". 
+To run the script, you need to open file “Run_Script_from_Admin.py”, because script requires admin rights to clicks in Tekla. 
+When you start the script, you must to be in drawing and press “home” key on keyboard and have the required mark selected by default.
 There are 4 log files. 
-The first for the model (marks are written in the format “B-6”). The second log is for drawings (marks are written in the format “B.6”) (this is needed for searching in different menus). If no views are found on the screen, a third log file called “Part_not_found” is created with names of assemblies. And if a mark already exists in the drawings, a fourth log file “Mark_already_exist” is created
+The first for the model (marks are written in the format “B-6”). 
+The second log is for drawings (marks are written in the format “B.6”) 
+This is needed for searching in different menus. 
+If no views are found on the screen, a third log file called “Part_not_found” is created with names of assemblies. 
+And if a mark already exists in the drawings, a fourth log file “Mark_already_exist” is created
